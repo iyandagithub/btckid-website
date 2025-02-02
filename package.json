@@ -1,0 +1,26 @@
+{
+  "name": "btckid-website",
+  "version": "1.0.0",
+  "description": "BTCKID Token Website - A Bitcoin History Time Capsule",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist/ .parcel-cache/",
+    "start": "npm run clean && npm run dev"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.75.0",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.0",
+    "parcel": "^2.13.3",
+    "postcss": "^8.4.21"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
